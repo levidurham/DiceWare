@@ -47,15 +47,15 @@ int main(int argc, char* argv[]){
 			      "Installing the rng-utils/rng-tools or haveged "
 			      "packages may help.\nOn virtualized Linux"
 			      "environments, also consider using virtio-rng.\n"
-			      "The service will not start until enough entropy
-			      has been collected.\n", stderr);
+			      "The service will not start until enough entropy"
+			      "has been collected.\n", stderr);
 		}
 		(void) close(fd);
     	}
 	#endif
 	// Exit if sodium fails to initialize
 	if (sodium_init() == -1) {
-		cerr << "Failed to initialize RNG."
+		std::cerr << "Failed to initialize RNG." << std::endl;
 		return 1;
 	}
 
