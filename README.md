@@ -6,16 +6,16 @@ The dictionary file included is the one available from the EFF. Other dictionary
 
 ## Eample Output *DO NOT USE*
 
-`./diceware 4`
+`./diceware 4`  
 scribing ought unicorn living
 
-`./diceware 4`
+`./diceware 4`  
 unopened dense amends scam
 
-`./diceware 5`
+`./diceware 5`  
 negation sternness comply pork sulfate
 
-`./diceware 6`
+`./diceware 6`  
 embark timid wiry democracy lettuce glutton
 
 
