@@ -5,9 +5,17 @@ A simple program to generate diceware.com style pass phrases using the dictionar
 The dictionary file included is the one available from the EFF. Other dictionary files are available. See [Refrences](#Refrences).
 
 ## Eample Output *DO NOT USE*
+
+`./diceware 4`
 scribing ought unicorn living
+
+`./diceware 4`
 unopened dense amends scam
+
+`./diceware 5`
 negation sternness comply pork sulfate
+
+`./diceware 6`
 embark timid wiry democracy lettuce glutton
 
 
